@@ -2,6 +2,10 @@
   border: 1px solid red;
 }*/
 
+*{
+  margin: 0px 0px;
+}
+
 .header {
   height: 100px;
   }
@@ -70,25 +74,29 @@
     }
 
 .container {
-  height: 600px;
+  height: 595px;
   width: 100%;
-  background-color: cyan;
-  padding: 200px 0;
+  background-image: url('images/tour-focus-bg.jpg');
+  background-size: 100%;
+  padding-top: 150px;
+  box-sizing: border-box;
 }
 
-  .wrapper {
-    height: 250px;
-    width: 900px;
-    background: pink;
-    margin: 0 auto;
+.wrapper{
+  height: 300px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+  .timebox {
+    width: 450px;
+    background-color: blue;
+    display: inline-block;
   }
 
-.sponsors {
-  height: 120px;
-  width: 100%;
-}
-
-.footer {
-  height: 100px;
-  width: 100%;
-}
+  .slogan {
+    width: 500px;
+    background-color: red;
+    display: inline-block;
+  }
