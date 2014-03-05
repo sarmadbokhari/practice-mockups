@@ -1,31 +1,27 @@
+ /*{
+  border: 1px solid red;
+}*/
+
 .header {
   height: 100px;
-  background-color: blue;
   }
 
 .menubox {
   margin: 0 auto;
-  width: 900px;
+  width: 1100px;
   height: 100px;
-  background-color:red;
 }
 
     .logo{
 
       float: left;
-      height: 29px;
-      width: 98px;
       margin-top: 30px;
-      background: green;
     }
 
     .menu{
 
       float: left;
-      height: 35px;
-      width: 400px;
       margin-top: 30px;
-      background-color: white;
     }
 
       div ul {
@@ -33,24 +29,44 @@
       }
 
       div ul li {
-        position: relative;
         display:inline-block;
-        width: 25px;
-        height: 30px;
-        background-color: green;
+        margin-right: 20px;
+        line-height: 30px;
       }
 
-      .logo-link {
-        background-image: url('/images/logo.png')
+      div ul li a {
+        text-decoration: none;
+        color:black;
+
+      }
+      div ul li a:hover {
+        text-decoration:none;
+        color:red;
+      }
+
+
+      .login a {
+        text-decoration: none;
+        line-height: 30px;
+        color: black;
+      }
+      .login a:hover {
+        text-decoration: none;
+        color:red;
+      }
+
+      .logo {
+        float: left;
       }
 
     .login{
       display: inline-block;
       float: right;
-      height: 35px;
-      width: 40px;
+      border-radius: 5px;
+      padding:0px 5px;
+      border:1px solid gray;
       margin-top: 30px;
-      background:green;
+      text-align: center;
     }
 
 .container {
