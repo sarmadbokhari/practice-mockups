@@ -1,0 +1,78 @@
+.header {
+  height: 100px;
+  background-color: blue;
+  }
+
+.menubox {
+  margin: 0 auto;
+  width: 900px;
+  height: 100px;
+  background-color:red;
+}
+
+    .logo{
+
+      float: left;
+      height: 29px;
+      width: 98px;
+      margin-top: 30px;
+      background: green;
+    }
+
+    .menu{
+
+      float: left;
+      height: 35px;
+      width: 400px;
+      margin-top: 30px;
+      background-color: white;
+    }
+
+      div ul {
+        margin: 0;
+      }
+
+      div ul li {
+        position: relative;
+        display:inline-block;
+        width: 25px;
+        height: 30px;
+        background-color: green;
+      }
+
+      .logo-link {
+        background-image: url('/images/logo.png')
+      }
+
+    .login{
+      display: inline-block;
+      float: right;
+      height: 35px;
+      width: 40px;
+      margin-top: 30px;
+      background:green;
+    }
+
+.container {
+  height: 600px;
+  width: 100%;
+  background-color: cyan;
+  padding: 200px 0;
+}
+
+  .wrapper {
+    height: 250px;
+    width: 900px;
+    background: pink;
+    margin: 0 auto;
+  }
+
+.sponsors {
+  height: 120px;
+  width: 100%;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+}
