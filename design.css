@@ -1,7 +1,5 @@
-
-*{
-  margin: 0px 0px;
-  border: 1px solid red;
+* {
+  margin: 0px;
 }
 
 .header {
@@ -121,14 +119,24 @@
       border-top: 1px solid #e6e6e6;
       margin: 0px 30px;
       color: #a0a0a0;
+
+    }
+
+    .message1, .message2 {
+      padding: 13px 0px;
     }
 
     .going{
-      width: 205px;
+      font-size:1em;
+      width:200px;
     }
 
-    .220 {
+    .twotwenty {
+      font-size:1em;
       width: 50px;
+     float:right;
+      text-align: right;
+
     }
 
     .current-time {
@@ -144,17 +152,100 @@
       color: black;
     }
 
+    .design {
+      width:200px;
+    }
+    .fortyfive {
+      width: 50px;
+      font-size:1em;
+      text-align: right;
+      float:right;
+    }
+    a.addtask {
+      text-decoration: underline;
+      color: #0574d3;
+    }
+    a.addtask:hover {
+      text-decoration: none;
+    }
 
+          .addtask2 {
+            padding:15px 0px;
+          }
 
   .slogan {
     position: relative;
     margin:0px;
     box-sizing: border-box;
     width: 540px;
-    background-color: red;
     display: inline-block;
     height:200px;
     float:right;
-
-
   }
+
+        .insanely {
+          font-size: 2.5em;
+          font-weight:300;
+          color:white;
+          text-shadow:0 1px 1px rgba(0,0,0,.5);
+
+        }
+        .toggl {
+          font-size:2.5em;
+          line-height: 1;
+          font-weight:bold;
+          margin-bottom:20px;
+          color:white;
+          text-shadow:0 1px 1px rgba(0,0,0,.5);
+        }
+
+      .sign-up {
+        padding: 15px 37px;
+        background-color: #94e129;
+        border-radius: 3px;
+        text-align: center;
+        text-shadow:0 1px 1px rgba(0,0,0,.5);
+        width:100px;
+
+      }
+
+      .sign {
+        font-size: 20px;
+        font-weight:bold;
+         color: white;
+         text-shadow:0 1px 1px rgba(0,0,0,.5);
+      }
+
+      .tour {
+        float:right;
+         padding: 15px 37px;
+        background-color: #94e129;
+        border-radius: 3px;
+        text-align: center;
+        text-shadow:0 1px 1px rgba(0,0,0,.5);
+        width:100px;
+
+      }
+
+      a.tour:hover {
+        color:black;
+      }
+
+      .take {
+
+        font-size: 20px;
+        font-weight:bold;
+         color: white;
+         text-shadow:0 1px 1px rgba(0,0,0,.5);
+
+      }
+
+
+
+
+
+
+
+
+
+
